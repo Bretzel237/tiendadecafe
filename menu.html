@@ -166,7 +166,6 @@
                 </div>
             </div>
         </div>
-            <!-- Agrega los demás productos de la misma manera -->
         </div>
     </section>
 
@@ -293,11 +292,11 @@
             document.getElementById('invoice-history').innerHTML += `<div class="mt-5">${invoiceHtml}</div>`;
             document.getElementById('invoice-result').innerHTML = '';
 
-            orders.length = 0; // Clear orders for new invoice
-            document.getElementById('customer-name').value = ''; // Clear customer name input
+            orders.length = 0; 
+            document.getElementById('customer-name').value = ''; 
         });
 
-        updateInvoice(); // Initial update to ensure the invoice section is always in sync
+        updateInvoice(); 
     </script>
 </body>
 </html>
